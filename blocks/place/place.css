@@ -1,0 +1,16 @@
+.place {
+    width: 984px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "title url"
+        "image item";
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 0;
+    padding-bottom: 80px;
+}   
+
+.place:last-child {
+    padding-bottom: 92px;
+  }
