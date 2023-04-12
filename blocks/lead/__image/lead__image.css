@@ -2,7 +2,5 @@
     align-self: center;
     padding-top: 64px;
     object-fit: cover;
-    min-height: 615px;
-    max-width: 100%;
     display: block;
 }

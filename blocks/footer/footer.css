@@ -3,5 +3,6 @@
     margin: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
-    min-width: 1184px;
+    max-width: 1184px;
+    width: 100%;
 }
