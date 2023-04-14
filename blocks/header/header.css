@@ -1,13 +1,9 @@
 .header {
-    justify-content: space-between;
-    padding: 28px 48px 0 48px;
-    max-width: 1184px;
-    display: flex;
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    max-width: 720px;
-  }
+  max-width: 1184px;
+  min-height: 52px;
+  margin: auto;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0 48px;
 }

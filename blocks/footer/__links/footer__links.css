@@ -1,6 +1,9 @@
-.footer__links {
+@media screen and (max-width: 767px) {
+  .footer__links {
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 48px;
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
+    max-width: 158px;
   }
+}

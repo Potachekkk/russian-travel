@@ -6,21 +6,25 @@
     font-weight: 900;
     color: #ffffff;
     font-size: 96px;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
     .lead__title {
-      line-height: 64px;
-      max-width: 420px;
-      font-size: 60px;
+        margin-top: 48px;
     }
-  }
-  
-@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 666px) {
     .lead__title {
-      line-height: 44px;
-      max-width: 320px;
-      font-size: 40px;
+        max-width: 288;
+        font-size: 70px;
+        line-height: 80px;
     }
-  }
+}
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

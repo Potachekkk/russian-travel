@@ -1,0 +1,18 @@
+.place__card {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .place__card {
+        max-width: 343px;
+        margin: 24px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__card {
+        max-width: 343px;
+        margin: 32px auto 0;
+    }
+}
