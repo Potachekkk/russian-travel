@@ -6,11 +6,11 @@
 
 @media screen and (max-width: 700px) {
     .place__website {
-        margin: 20px 0 0 38px;
+        margin: 20px 0 32px 24px;
     }
 }
 @media screen and (max-width: 320px) {
     .place__website {
-        margin: 32px 16px;
+        margin: 32px 0;
     }
 }
