@@ -6,7 +6,12 @@
     font-weight: 400;
     color: #ffffff;
     font-size: 18px;    
-    cursor: pointer;
+    cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png) 2 2, default;
+    transition: 0.5s;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 764px) {

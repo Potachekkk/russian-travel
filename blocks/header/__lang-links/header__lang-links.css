@@ -5,4 +5,11 @@
   display: flex;
   padding: 0;
   gap: 18px;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    margin-top: 14px;
+  }
 }

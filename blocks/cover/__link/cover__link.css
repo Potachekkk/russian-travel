@@ -1,4 +1,4 @@
-.cover__overlay {
+.cover__link {
     background-image: url(../../../images/dmitrii-vaccinium-22833-unsplash.jpg);
     background-position: center;
     justify-content: center;
@@ -13,13 +13,15 @@
     display: flex;
     z-index: 0;
     gap: 32px;
+    cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png) 2 2, default;
+
   }
-  .cover__overlay:hover::before {
+  .cover__link:hover::before {
     opacity: 0.8;
     transition: 0.5s;
   }
-  
-  .cover__overlay::before {
+
+  .cover__link::before {
     background: #2a2c2f;
     position: absolute;
     opacity: 0.3;
@@ -32,7 +34,7 @@
   }
   
 @media screen and (max-width: 1024px) {
-    .cover__overlay {
+    .cover__link {
         width: 1024px;
         height: 640px;
         margin-bottom: 92px;
@@ -41,13 +43,13 @@
 
 
 @media screen and (max-width: 768px) {
-    .cover__overlay {
+    .cover__link {
         height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__overlay {
+  .cover__link {
       height: 200px;
       gap: 16px;
   }
