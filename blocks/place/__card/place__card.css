@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 320px) {
     .place__card {
-        max-width: 343px;
         margin: 32px auto 0;
     }
 }

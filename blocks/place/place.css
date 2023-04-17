@@ -3,7 +3,6 @@
     grid-template-areas:
         "title url"
         "image paragraph-container";
-    grid-template-columns: 1fr 1fr;
     column-gap: 40px;
     max-width: 984px;
     row-gap: 48px;

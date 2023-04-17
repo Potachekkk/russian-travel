@@ -8,7 +8,7 @@
     align-items: center;
     position: relative;
     object-fit: cover;
-    height: 740px;
+    min-height: 740px;
     max-width: 100%;
     display: flex;
     z-index: 0;
@@ -35,22 +35,21 @@
   
 @media screen and (max-width: 1024px) {
     .cover__link {
-        width: 1024px;
-        height: 640px;
-        margin-bottom: 92px;
+        width: 100%;
+        min-height: 640px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .cover__link {
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
-      height: 200px;
+      min-height: 200px;
       gap: 16px;
   }
 }

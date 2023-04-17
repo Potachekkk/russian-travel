@@ -6,18 +6,18 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        height: 200px;
+        min-height: 200px;
     }
 }
