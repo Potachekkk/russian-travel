@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-gap: 16px;
-    padding: 0;
+    padding-inline-start: 0;
 }
 
 @media screen and (max-width: 1285px) {
@@ -35,5 +35,7 @@
     .photo-grid__list {
         grid-template-columns: repeat(auto-fill, 288px);
         grid-gap: 12px;
+        margin-top: 64px;
+        padding: 0;
     }
 }
